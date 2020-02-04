@@ -4,4 +4,5 @@
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
-    telephony.lteOnGsmDevice=1
+    telephony.lteOnGsmDevice=1 \
+	persist.radio.multisim.config=dsds
