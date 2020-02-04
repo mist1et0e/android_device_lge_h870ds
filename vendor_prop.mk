@@ -1,5 +1,5 @@
 #
-# Vendor Properties for International LG G6
+# Vendor Properties for International LG G6 DS
 #
 
 # Radio
