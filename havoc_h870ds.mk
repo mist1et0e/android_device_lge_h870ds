@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Inherit from h870ds device
 $(call inherit-product, device/lge/h870ds/device.mk)
@@ -31,7 +31,7 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH_OVERRIDE)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_DEVICE := h870ds
-PRODUCT_NAME := aosp_h870ds
+PRODUCT_NAME := havoc_h870ds
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-H870DS
 PRODUCT_MANUFACTURER := LGE
@@ -40,6 +40,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lucye" \
     PRODUCT_DEVICE="lucye" \
     PRODUCT_NAME="lucye_global_com" \
-    PRIVATE_BUILD_DESC="lucye_global_com-user 9 PKQ1.190522.001 1930916292597 release-keys"
+    PRIVATE_BUILD_DESC="lucye_global_com-user 9 PKQ1.190522.001 192632011c72d release-keys"
 
-BUILD_FINGERPRINT := "lge/lucye_global_com/lucye:9/PKQ1.190522.001/1930916292597:user/release-keys"
+BUILD_FINGERPRINT := "lge/lucye_global_com/lucye:9/PKQ1.190522.001/192632011c72d:user/release-keys"
