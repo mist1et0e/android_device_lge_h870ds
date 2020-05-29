@@ -22,11 +22,11 @@ $(call inherit-product-if-exists, vendor/lge/h870ds/h870ds-vendor.mk)
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
-# common g6
+# common msm8996
 # Overlays (inherit after vendor/cm to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-$(call inherit-product, device/lge/g6-common/g6.mk)
+$(call inherit-product, device/lge/msm8996-common/msm8996.mk)
 
 # Sensors
 PRODUCT_COPY_FILES += \

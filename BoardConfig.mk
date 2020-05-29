@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2017-2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@
 
 DEVICE_PATH := device/lge/h870ds
 
-# inherit from common g6
--include device/lge/g6-common/BoardConfigCommon.mk
+# inherit from msm8996-common
+-include device/lge/msm8996-common/BoardConfigCommon.mk
 
 TARGET_OTA_ASSERT_DEVICE := g6,lucye,h870ds,h870
 
