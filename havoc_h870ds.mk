@@ -49,3 +49,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info-quad_dac.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info-quad_dac.xml \
     $(LOCAL_PATH)/audio/mixer_paths_tasha-quad_dac.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha-quad_dac.xml \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml
+    
