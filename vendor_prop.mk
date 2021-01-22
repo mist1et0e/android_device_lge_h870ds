@@ -17,5 +17,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.lge.audio.hifi_rec.concert_lmt=0 \
 	vendor.lge.audio.hifi_rec.offset_gain=37 \
 	persist.vendor.lge.audio.hifi_adv_support=1\
-	quad_dac \
-	QuadDacTile
