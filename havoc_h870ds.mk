@@ -48,3 +48,4 @@ BUILD_FINGERPRINT := "lge/lucye_global_com/lucye:9/PKQ1.190522.001/192632011c72d
 PRODUCT_PACKAGES += \
     quad_dac \
     QuadDacTile
+    
