@@ -44,12 +44,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := "lge/lucye_global_com/lucye:9/PKQ1.190522.001/192632011c72d:user/release-keys"
 
-# Audio
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/audio_platform_info-quad_dac.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info-quad_dac.xml \
-    $(LOCAL_PATH)/audio/mixer_paths_tasha-quad_dac.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha-quad_dac.xml \
-    $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml
-    
 # Quad DAC Tile
 PRODUCT_PACKAGES += \
     quad_dac \
