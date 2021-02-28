@@ -2295,8 +2295,8 @@
 
     <path name="voice-headphones">
         <path name="headphones" />
-        <ctl name="COMP1 Switch" value="0" />
-        <ctl name="COMP2 Switch" value="0" />
+        <ctl name="COMP1 Switch" value="1" />
+        <ctl name="COMP2 Switch" value="1" />
         <ctl name="RX HPH Mode" value="CLS_H_LP" />
         <ctl name="RX1 Mix Digital Volume" value="74" />
         <ctl name="RX2 Mix Digital Volume" value="74" />
@@ -3237,8 +3237,8 @@
 
     <path name="voice-headphones-advanced">
         <path name="voice-headphones" />
-        <ctl name="COMP1 Switch" value="0" />
-        <ctl name="COMP2 Switch" value="0" />
+        <ctl name="COMP1 Switch" value="1" />
+        <ctl name="COMP2 Switch" value="1" />
         <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
         <ctl name="RX1 Mix Digital Volume" value="74" />
         <ctl name="RX2 Mix Digital Volume" value="74" />
@@ -3248,8 +3248,8 @@
 
     <path name="voice-headphones-aux">
         <path name="voice-headphones" />
-        <ctl name="COMP1 Switch" value="0" />
-        <ctl name="COMP2 Switch" value="0" />
+        <ctl name="COMP1 Switch" value="1" />
+        <ctl name="COMP2 Switch" value="1" />
         <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
         <ctl name="RX1 Mix Digital Volume" value="74" />
         <ctl name="RX2 Mix Digital Volume" value="74" />
